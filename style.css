@@ -1,0 +1,30 @@
+/* Variáveis de cores para facilitar a manutenção */
+:root {
+    --cor-primaria: #183C63;
+    --cor-fundo: #FFFFFF;
+}
+
+/* Reset básico para evitar margens indesejadas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
+    padding: 20px;
+}
+
+main {
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    padding: 20px;
+}
